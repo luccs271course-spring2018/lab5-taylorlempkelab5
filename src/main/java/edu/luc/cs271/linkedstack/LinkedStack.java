@@ -62,10 +62,10 @@ public class LinkedStack<E> implements IStack<E> {
     List<E> preallocatedList = new ArrayList<E>();
     while (top != null)
     {
-      preAlList.add(top.data);
+      preallocatedList.add(top.data);
       top = top.next;
     }
     // TODO add any instance variable(s) required to support this
-    return preAlList;
+    return preallocatedList;
   }
 }

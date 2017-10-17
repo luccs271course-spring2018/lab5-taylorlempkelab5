@@ -22,7 +22,7 @@ In this lab, you will have the opportunity to implement a generic stack as a lin
 Specifically:
 
 1. Complete the TODO items in the `LinkedStack` implementation until the tests pass.
-1. Complete the main class `ReverseLines`, which reads successive input lines until EOF and then prints themin reverse order, using a suitable stack instance.
+1. Complete the main class `ReverseLines`, which reads successive input lines until EOF and then prints them in reverse order, using a suitable stack instance.
 1. Answer the following questions:
    - Why does `LinkedStack` not require an explicit constructor?
    - What is the time and (extra) space complexity of each of the `LinkedStack` methods, as well as `ReverseLines.main`?
